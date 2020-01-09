@@ -15,13 +15,22 @@
 若此方法不行请自行百度，可以参考[这里](https://jingyan.baidu.com/article/0aa22375ea166dc8cd0d6433.html)
 ### 0.3 检测是否调试成功
 `Win+R`, 输入`cmd`回车打开cmd。
+查看adb版本:
 ```
 adb version
 ```
-查看adb版本
-
+这是我的返回结果:
 ```
 Android Debug Bridge version 1.0.40
 Version 4797878
 Installed as D:\ADB\adb.exe
+```
+然后输入：
+```
+adb devices
+```
+看到有一台设备已经连接，表示调试成功
+```
+List of devices attached
+872QEDU4223KE   device
 ```
