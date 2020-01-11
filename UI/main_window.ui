@@ -17,11 +17,11 @@
    <string>剑网3：指尖江湖辅助</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="pushButton_1">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>40</y>
+      <x>200</x>
+      <y>60</y>
       <width>201</width>
       <height>81</height>
      </rect>
@@ -33,41 +33,55 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>170</y>
+      <x>200</x>
+      <y>200</y>
       <width>201</width>
       <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>自动悬赏</string>
+     <string>自动捡垃圾（未实装）</string>
     </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>390</y>
+      <x>20</x>
+      <y>440</y>
       <width>181</width>
-      <height>111</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
-     <string>联系方式：QQ806032098
-欢迎合作</string>
+     <string>作者：ZDYoung
+联系方式：QQ806032098
+版本：V1.0</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>190</x>
-      <y>310</y>
+      <x>200</x>
+      <y>330</y>
       <width>201</width>
       <height>81</height>
      </rect>
     </property>
     <property name="text">
-     <string>其他功能</string>
+     <string>其他功能（未实装）</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>440</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>安装ADB</string>
     </property>
    </widget>
   </widget>
