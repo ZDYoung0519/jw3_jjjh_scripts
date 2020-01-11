@@ -18,6 +18,7 @@ class ADBTools(object):
         self.port = ''
 
     def connect(self, port=0):
+        os.system('adb start-sever | find"xxx"')
         if port == 0:
             os.system('adb devices | find "xxx"')
             self.port = 'USB'
