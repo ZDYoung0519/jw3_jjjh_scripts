@@ -37,3 +37,9 @@ adb devices
 List of devices attached
 872QEDU4223KE   device
 ```
+### 0.4 运行脚本
+打开dist目录下的exe文件即可运行。
+需要手动输入三个参数：
+* 需要购买的物品编号
+* 每次购买数量,`0表示买越多越好`
+* 脚本运行时间，单位（秒）
